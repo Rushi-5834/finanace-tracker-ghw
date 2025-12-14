@@ -7,7 +7,7 @@ import {
   type HistogramData,
   type Time,
 } from "lightweight-charts";
-import { css } from "../../utils/cssUtil";
+import { css } from '../../utils/cssUtil';
 
 export type CategoryPoint = {
   category: string;

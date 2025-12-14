@@ -8,7 +8,7 @@ import {
   type LineData,
   type Time,
 } from "lightweight-charts";
-import { css } from "../../utils/cssUtil";
+import { css } from '../../utils/cssUtil';
 
 export type TimePoint = {
   time: string | number;

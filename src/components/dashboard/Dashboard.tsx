@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
 import { useTransactionsStore } from "../../store/transactionsStore";
 import { useAccountsStore } from "../../store/accountsStore";
-import { useCategoriesStore } from "../../store/categoriesStore";
-import CategoryChart, { type CategoryPoint } from "../charts/CategoryChart";
-import { groupByMonth, groupByCategory } from "../../utils/aggregations";
+import { useCategoriesStore } from '../../store/categoriesStore';
+import CategoryChart, { type CategoryPoint } from '../charts/CategoryChart';
+import { groupByMonth, groupByCategory } from '../../utils/aggregations';
 import styles from "./Dashboard.module.css";
-import TimeSeriesChart, { type TimePoint } from "../charts/TimeSeriesChart";
+import TimeSeriesChart, { type TimePoint } from '../charts/TimeSeriesChart';
 
 const Dashboard = () => {
   const [isHydrated, setIsHydrated] = useState(() => {

@@ -4,7 +4,7 @@ import type {
   CategoryAggregate,
   MonthlyAggregate,
 } from "../types/models";
-import { toYearMonth } from "./dateUtils";
+import { toYearMonth } from './dateUtils';
 
 export function groupByCategory(
   transactions: AnyTransaction[],
